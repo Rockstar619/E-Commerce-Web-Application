@@ -9,7 +9,7 @@ const AdminDashboard =() =>{
     const adminLeftSide=() =>{
         return(
             <div className="card">
-                <h4 className="card-header bg-dark text-white">Admin Navigation</h4>
+                <h4 className="card-header bg-dark text-white"> Navigation</h4>
                 <ul className="list-group">
                     <li className="list-group-item">
                         <Link to="/admin/create/category" className="nav-link text-info">Create Categories</Link>
