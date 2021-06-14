@@ -1,16 +1,16 @@
 # E-Commerce-Web-Application
 
-This Application is developed using MongoDB, Express.Js, ReactJs, and NodeJs. 
+This Application is developed using MongoDB, Express.js, React.js, and Node.js. 
 
 Here are some of the things that you can perform with this application:
 
 * User registration and login
 
-* Users can add product to their cart and purchase summary.
-* Admins will have access to the following CRUD operations
-    * Add products to product list.
-    * Create multiple categories and associate products with them.
-    * Edit product details.
-    * Delete products from product lists.
+* This application has access to the following CRUD operations
+    * Users can add product to their cart and purchase summary.
+    * Admins can add products to product list.
+    * Admins can create multiple categories and associate products with them.
+    * Admins can edit product details.
+    * Admins can delete products from product lists.
 
 
