@@ -1,6 +1,6 @@
 # E-Commerce-Web-Application
 
-This Application is developed using MongoDB, ExpressJs, ReactJs, and NodeJs. 
+This Application is developed using MongoDB, Express.Js, ReactJs, and NodeJs. 
 
 Here are some of the things that you can perform with this application:
 
