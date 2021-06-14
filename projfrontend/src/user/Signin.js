@@ -5,13 +5,15 @@ import { Redirect } from "react-router-dom";
 import { signin, authenticate, isAutheticated } from "../auth/helper";
 
 const Signin = () => {
-  const [values, setValues] = useState({
-    email:"",
-    password: "",
-    error: "",
-    loading: false,
-    didRedirect: false
-  });
+  const [values, setValues] = useState(
+    {
+    // email:"",
+    // password: "",
+    // error: "",
+    // loading: false,
+    // didRedirect: false
+  }
+  );
 
   const { email, password, error, loading, didRedirect } = values;
   const { user } = isAutheticated();
@@ -117,7 +119,7 @@ const Signin = () => {
       {signInForm()}
       {performRedirect()}
 
-      <p className="text-white text-center">{JSON.stringify(values)}</p>
+      {/* <p className="text-white text-center">{JSON.stringify(values)}</p> */}
     </Base>
   );
 };
