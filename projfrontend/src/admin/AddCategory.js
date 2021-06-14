@@ -41,7 +41,7 @@ const AddCategory =() =>{
     };
     const warningMessage = () =>{
         if(error){
-            return <h4 className="text-success">Failed to create successfully</h4>
+            return <h4 className="text-success">Failed to create </h4>
         }
     };
 
