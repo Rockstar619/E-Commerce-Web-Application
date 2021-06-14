@@ -6,7 +6,7 @@ Here are some of the things that you can perform with this application:
 
 * Users can register and login with their credentials.
 
-* This application also has access to the following CRUD operations:
+* This application also has the following CRUD operations:
     * Users can add product to their cart and view their purchase summary.
     * Admins can add products to the store.
     * Admins can create multiple categories and associate products with them.
